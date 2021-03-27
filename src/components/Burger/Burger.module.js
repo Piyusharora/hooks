@@ -2,6 +2,7 @@ import classes from './Burger.module.css';
 //import {withRouter} from 'react-router-dom';
 import React  from 'react';
 import BurgerIngredient from './BurgerIngredents/BurgerIngredents.module';
+
 const burger = ( props ) => {
     console.log(props);
     let transformedIngredients = Object.keys( props.ingredients ).map( igKey => {

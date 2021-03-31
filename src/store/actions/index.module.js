@@ -8,3 +8,9 @@ export {
     purchaseInit,
     fetchOrders
 } from './order.module';
+export {
+    auth,
+    logout,
+    setAuthRedirectPath,
+    authCheckState
+} from './auth.module';

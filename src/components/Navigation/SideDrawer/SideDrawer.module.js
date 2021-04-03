@@ -1,5 +1,5 @@
 import React from 'react';
-import Auxx from '../../containers/hoc/Auxx.module';
+import Auxx from '../../containers/hoc/Auxx/Auxx.module';
 import Logo from '../../Logo/Logo.module';
 import Backdrop from '../../UI/Backdrop/Backdrop.module';
 import NavigationItems from '../NavigationItems/NavigationItems.module';
